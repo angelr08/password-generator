@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/styles.css">
+    <title>Password-Generator</title>
+</head>
+<body>
+    <h1>PassWord Generator</h1>
+    <form action="">
+        <label for="characterNumbers">Choose the number of characters</label>
+        <input id="characterNumbers" type="number" min="8" max="100">
+        <p>Select the type of password</p>
+        <button class="modeButton" type="button" onclick="setTypePassword('number')">Only numbers</button>
+        <button class="modeButton" type="button" onclick="setTypePassword('text')">Only text</button>
+        <button class="modeButton" type="button" onclick="setTypePassword('symbol')">Only symbols</button>
+        <button class="modeButton" type="button" onclick="setTypePassword('full')">Full Mode</button>
+        <button class="generateButton" type="submit" onclick="generatePassword()">Generate Password</button>
+        <p class="password"></p>
+        <button class="copyButton" onclick="copyToClipboard()">Copy</button>
+    </form>
+    <script src="./src/main.js"></script>
+</body>
+</html>

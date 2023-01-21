@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 6.25%;
+}
+
+body {
+    background: #222222;
+    color: #F3EFE0;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-size: 36rem;
+    text-align: center;
+    color: #22A39F;
+    margin-block-start: 36px;
+    margin-block-end: 36px;
+}
+
+form {
+    width: 90%;
+    max-width: 375px;
+    margin: 0 auto 24px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+p {
+    font-size: 16rem;
+}
+
+label {
+    font-size: 16rem;
+}
+
+#characterNumbers, .modeButton {
+    width: 55px;
+    height: 33px;
+    background: none;
+    border: 3px solid #22A39F;
+    text-align: center;
+    outline: none;
+    color: #F3EFE0;
+    font-weight: 700;
+    font-size: 16rem;
+}
+
+.modeButton {
+    width: 160px;
+}
+
+.modeButton:hover {
+    border-color: #4AF0EA;
+}
+
+.generateButton, .copyButton {
+    width: 222px;
+    height: 41px;
+    background: #22A39F;
+    border: none;
+    text-align: center;
+    outline: none;
+    color: #F3EFE0;
+    font-weight: 700;
+    font-size: 20rem;
+    border-radius: 8px;
+}
+
+.password {
+    text-align: center;
+    font-weight: 700;
+    font-size: 20rem;
+}
+
+.copyButton {
+    width: 111px;
+    height: 40px;
+}
